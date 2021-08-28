@@ -86,7 +86,11 @@
 <script>
 export default {
   name: "City",
-
+  mounted() {
+    // this.axios.get("/city.json").then((res) => {
+    //   console.log(res.data);
+    // });
+  },
   data() {
     return {};
   },

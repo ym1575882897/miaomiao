@@ -45,7 +45,7 @@ const routes = [
   },
   {
     path: '/*',
-    redirect: '/movie'
+    redirect: '/movie/nowPlaying'
   },
 ]
 
